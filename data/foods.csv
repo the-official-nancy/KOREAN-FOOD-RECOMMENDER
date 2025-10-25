@@ -1,0 +1,31 @@
+name,category,spicy,vegetarian,vegan,halal_friendly,contains_pork,contains_beef,contains_chicken,contains_seafood,contains_egg,contains_dairy,contains_gluten,contains_peanuts,sweetness,popularity,description,image
+Bibimbap,Rice,None,True,False,True,False,False,False,False,False,False,True,False,Low,5,"Mixed rice with assorted vegetables, gochujang optional.",bibimbap.jpg
+Kimchi Jjigae,Stew,Hot,False,False,False,True,False,False,False,False,False,True,False,Low,5,Spicy kimchi stew often with pork and tofu.,kimchi_jjigae.jpg
+Sundubu Jjigae,Stew,Medium,True,False,True,False,False,False,False,False,False,True,False,Low,4,Soft tofu stew with chili and mushrooms; seafood/pork variants exist.,sundubu_jjigae.jpg
+Japchae,Noodles,None,True,True,True,False,False,False,False,False,False,True,False,Low,5,Stir-fried glass noodles with vegetables and soy sauce.,japchae.jpg
+Tteokbokki,Snack/Street,Hot,True,True,True,False,False,False,False,False,False,True,False,Medium,5,Chewy rice cakes in spicy-sweet gochujang sauce.,tteokbokki.jpg
+Jajangmyeon,Noodles,Mild,False,False,True,False,False,False,False,False,False,True,False,Medium,4,Wheat noodles with savory black bean sauce (often with pork cubes).,jajangmyeon.jpg
+Jjamppong,Noodles,Hot,False,False,True,False,False,False,True,False,False,True,False,Low,4,Spicy seafood noodle soup with chili broth.,jjamppong.jpg
+Samgyeopsal,BBQ,None,False,False,False,True,False,False,False,False,False,False,False,Low,5,Grilled pork belly served with lettuce wraps and sauces.,samgyeopsal.jpg
+Bulgogi,BBQ,None,False,False,True,False,True,False,False,False,False,False,False,Medium,5,"Marinated grilled beef with soy, garlic, and a hint of sweetness.",bulgogi.jpg
+Galbi,BBQ,None,False,False,True,False,True,False,False,False,False,False,False,Medium,5,Marinated beef short ribs char-grilled.,galbi.jpg
+Dakgalbi,BBQ,Medium,False,False,True,False,False,True,False,False,False,False,False,Low,4,Spicy stir-fried chicken with vegetables.,dakgalbi.jpg
+Kimchi,Side,Medium,True,True,True,False,False,False,False,False,False,False,False,Low,5,"Fermented napa cabbage with chili, garlic, ginger.",kimchi.jpg
+Kimbap,Rice,None,False,False,True,False,False,False,True,True,False,True,False,Low,4,"Rice roll with vegetables, egg, and sometimes fish or meat.",kimbap.jpg
+Naengmyeon,Noodles,None,True,False,True,False,False,False,False,False,False,True,False,Low,4,Cold buckwheat noodles in chilled broth (summer favorite).,naengmyeon.jpg
+Seolleongtang,Soup,None,False,False,True,False,True,False,False,False,False,False,False,Low,4,Milky beef bone soup with noodles or rice.,seolleongtang.jpg
+Samgyetang,Soup,None,False,False,True,False,False,True,False,False,False,False,False,Low,4,Whole young chicken ginseng soup.,samgyetang.jpg
+Budae Jjigae,Stew,Medium,False,False,False,True,True,False,False,False,False,True,False,Medium,4,"Hearty 'army base' stew with sausages, spam, noodles, kimchi.",budae_jjigae.jpg
+Haemul Pajeon,Seafood,None,False,False,True,False,False,False,True,False,False,True,False,Low,4,Crispy scallion pancake with mixed seafood.,haemul_pajeon.jpg
+Hoddeok,Dessert,None,True,False,True,False,False,False,False,False,True,True,False,High,4,Sweet filled pancakes with brown sugar syrup and nuts.,hoddeok.jpg
+Bingsu,Dessert,None,True,True,True,False,False,False,False,False,True,False,False,High,5,"Shaved ice dessert with toppings (fruit, red beans, milk).",bingsu.jpg
+Tteokguk,Soup,None,False,False,True,False,False,False,False,False,False,True,False,Low,3,Rice cake soup traditionally eaten on Lunar New Year.,tteokguk.jpg
+Sundea,Snack/Street,None,False,False,False,True,False,False,False,False,False,False,False,Low,3,"Blood sausage steamed and sliced, often with salt or sauce.",sundea.jpg
+Gyeran-mari,Side,None,False,False,True,False,False,False,False,True,False,False,False,Low,3,Rolled omelette side dish with vegetables.,gyeran_mari.jpg
+Yangnyeom Chicken,Snack/Street,Medium,False,False,True,False,False,True,False,False,False,True,False,High,5,Crispy fried chicken with sweet-spicy sauce.,yangnyeom_chicken.jpg
+Ganjang Gejang,Seafood,None,False,False,True,False,False,False,True,False,False,False,False,Low,3,"Raw crab marinated in soy sauce, umami-rich.",ganjang_gejang.jpg
+Makgeolli,Side,None,True,True,True,False,False,False,False,False,False,True,False,Low,3,Traditional rice brew; often paired with pancakes.,makgeolli.jpg
+Patbingsu,Dessert,None,True,True,True,False,False,False,False,False,True,False,False,High,4,Shaved ice with sweet red beans and toppings.,patbingsu.jpg
+Bossam,BBQ,None,False,False,False,True,False,False,False,False,False,False,False,Low,4,Boiled pork belly slices served with wraps and condiments.,bossam.jpg
+Doenjang Jjigae,Stew,Mild,True,False,True,False,False,False,False,False,False,True,False,Low,4,Fermented soybean paste stew with tofu and vegetables.,doenjang_jjigae.jpg
+Odeng / Eomuk,Snack/Street,Mild,False,False,True,False,False,False,True,False,False,True,False,Low,3,Fish cake skewers served in warm broth.,odeng.jpg
