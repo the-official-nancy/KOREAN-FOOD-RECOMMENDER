@@ -1,31 +1,117 @@
 name,category,spicy,vegetarian,vegan,halal_friendly,contains_pork,contains_beef,contains_chicken,contains_seafood,contains_egg,contains_dairy,contains_gluten,contains_peanuts,sweetness,popularity,description,image
-Bibimbap,Rice,None,True,False,True,False,False,False,False,False,False,True,False,Low,5,"Mixed rice with assorted vegetables, gochujang optional.",bibimbap.jpg
-Kimchi Jjigae,Stew,Hot,False,False,False,True,False,False,False,False,False,True,False,Low,5,Spicy kimchi stew often with pork and tofu.,kimchi_jjigae.jpg
-Sundubu Jjigae,Stew,Medium,True,False,True,False,False,False,False,False,False,True,False,Low,4,Soft tofu stew with chili and mushrooms; seafood/pork variants exist.,sundubu_jjigae.jpg
-Japchae,Noodles,None,True,True,True,False,False,False,False,False,False,True,False,Low,5,Stir-fried glass noodles with vegetables and soy sauce.,japchae.jpg
-Tteokbokki,Snack/Street,Hot,True,True,True,False,False,False,False,False,False,True,False,Medium,5,Chewy rice cakes in spicy-sweet gochujang sauce.,tteokbokki.jpg
-Jajangmyeon,Noodles,Mild,False,False,True,False,False,False,False,False,False,True,False,Medium,4,Wheat noodles with savory black bean sauce (often with pork cubes).,jajangmyeon.jpg
-Jjamppong,Noodles,Hot,False,False,True,False,False,False,True,False,False,True,False,Low,4,Spicy seafood noodle soup with chili broth.,jjamppong.jpg
-Samgyeopsal,BBQ,None,False,False,False,True,False,False,False,False,False,False,False,Low,5,Grilled pork belly served with lettuce wraps and sauces.,samgyeopsal.jpg
-Bulgogi,BBQ,None,False,False,True,False,True,False,False,False,False,False,False,Medium,5,"Marinated grilled beef with soy, garlic, and a hint of sweetness.",bulgogi.jpg
-Galbi,BBQ,None,False,False,True,False,True,False,False,False,False,False,False,Medium,5,Marinated beef short ribs char-grilled.,galbi.jpg
-Dakgalbi,BBQ,Medium,False,False,True,False,False,True,False,False,False,False,False,Low,4,Spicy stir-fried chicken with vegetables.,dakgalbi.jpg
-Kimchi,Side,Medium,True,True,True,False,False,False,False,False,False,False,False,Low,5,"Fermented napa cabbage with chili, garlic, ginger.",kimchi.jpg
-Kimbap,Rice,None,False,False,True,False,False,False,True,True,False,True,False,Low,4,"Rice roll with vegetables, egg, and sometimes fish or meat.",kimbap.jpg
-Naengmyeon,Noodles,None,True,False,True,False,False,False,False,False,False,True,False,Low,4,Cold buckwheat noodles in chilled broth (summer favorite).,naengmyeon.jpg
-Seolleongtang,Soup,None,False,False,True,False,True,False,False,False,False,False,False,Low,4,Milky beef bone soup with noodles or rice.,seolleongtang.jpg
-Samgyetang,Soup,None,False,False,True,False,False,True,False,False,False,False,False,Low,4,Whole young chicken ginseng soup.,samgyetang.jpg
-Budae Jjigae,Stew,Medium,False,False,False,True,True,False,False,False,False,True,False,Medium,4,"Hearty 'army base' stew with sausages, spam, noodles, kimchi.",budae_jjigae.jpg
-Haemul Pajeon,Seafood,None,False,False,True,False,False,False,True,False,False,True,False,Low,4,Crispy scallion pancake with mixed seafood.,haemul_pajeon.jpg
-Hoddeok,Dessert,None,True,False,True,False,False,False,False,False,True,True,False,High,4,Sweet filled pancakes with brown sugar syrup and nuts.,hoddeok.jpg
-Bingsu,Dessert,None,True,True,True,False,False,False,False,False,True,False,False,High,5,"Shaved ice dessert with toppings (fruit, red beans, milk).",bingsu.jpg
-Tteokguk,Soup,None,False,False,True,False,False,False,False,False,False,True,False,Low,3,Rice cake soup traditionally eaten on Lunar New Year.,tteokguk.jpg
-Sundea,Snack/Street,None,False,False,False,True,False,False,False,False,False,False,False,Low,3,"Blood sausage steamed and sliced, often with salt or sauce.",sundea.jpg
-Gyeran-mari,Side,None,False,False,True,False,False,False,False,True,False,False,False,Low,3,Rolled omelette side dish with vegetables.,gyeran_mari.jpg
-Yangnyeom Chicken,Snack/Street,Medium,False,False,True,False,False,True,False,False,False,True,False,High,5,Crispy fried chicken with sweet-spicy sauce.,yangnyeom_chicken.jpg
-Ganjang Gejang,Seafood,None,False,False,True,False,False,False,True,False,False,False,False,Low,3,"Raw crab marinated in soy sauce, umami-rich.",ganjang_gejang.jpg
-Makgeolli,Side,None,True,True,True,False,False,False,False,False,False,True,False,Low,3,Traditional rice brew; often paired with pancakes.,makgeolli.jpg
-Patbingsu,Dessert,None,True,True,True,False,False,False,False,False,True,False,False,High,4,Shaved ice with sweet red beans and toppings.,patbingsu.jpg
-Bossam,BBQ,None,False,False,False,True,False,False,False,False,False,False,False,Low,4,Boiled pork belly slices served with wraps and condiments.,bossam.jpg
-Doenjang Jjigae,Stew,Mild,True,False,True,False,False,False,False,False,False,True,False,Low,4,Fermented soybean paste stew with tofu and vegetables.,doenjang_jjigae.jpg
-Odeng / Eomuk,Snack/Street,Mild,False,False,True,False,False,False,True,False,False,True,False,Low,3,Fish cake skewers served in warm broth.,odeng.jpg
+Andong Jjimdak,Meat,Mild,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,4,Braised chicken from Andong,andong_jjimdak.jpg
+Assorted Banchan,Side,Mild,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,4,Various side dishes,assorted_banchan.jpg
+Bibimbap,Rice,None,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,5,"Mixed rice with assorted vegetables, gochujang optional.",bibimbap.jpg
+Bingsu,Dessert,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,High,5,"Shaved ice dessert with toppings (fruit, red beans, milk).",bingsu.jpg
+Bokkeumbap,Rice ,Mild,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,Medium,3,Fried rice with vegetables and sometimes meat,bokkeumbap.jpg
+Boribap,Rice,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Barley rice with side dishes,boribap.jpg
+Bossam,BBQ,None,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Low,4,Boiled pork belly slices served with wraps and condiments.,bossam.jpg
+Buchu Geotjeori,Side,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,2,Fresh chive salad,buchu_geotjeori.jpg
+Buchu Jeon,Side,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,Low,3,Chive pancake,buchu_jeon.jpg
+Budae Jjigae,Stew,Medium,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Medium,4,"Hearty 'army base' stew with sausages, spam, noodles, kimchi.",budae_jjigae.jpg
+Buldakbal,BBQ,Hot,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,Low,3,Spicy grilled chicken feet,buldakbal.jpg
+Bulgogi,BBQ,None,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Medium,5,"Marinated grilled beef with soy, garlic, and a hint of sweetness.",bulgogi.jpg
+Cajun Chicken (Korean style),Meat,Hot,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,Medium,2,Spicy seasoned chicken,cajun_chicken.jpg
+Chili Saewoo,Seafood,Hot,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Medium,3,Chili shrimp,chili_saewoo.jpg
+Curry Rice (Korean),Rice,Mild,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Medium,4,Mild curry rice,curry_rice.jpg
+Dakbokkeumtang,Stew,Hot,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,4,Spicy braised chicken,dakbokkeumtang.jpg
+Dakgalbi,BBQ,Medium,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,Low,4,Spicy stir-fried chicken with vegetables.,dakgalbi.jpg
+Dakjuk,Rice,None,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Chicken porridge,dakjuk.jpg
+Deunggalbi Jjim,Meat,None,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Braised pork ribs,deunggalbi_jjim.jpg
+Doenjang Jjigae,Stew,Mild,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,4,Fermented soybean paste stew with tofu and vegetables.,doenjang_jjigae.jpg
+Dolsot Bibimbap,Rice,Medium,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,Medium,4,Hot stone pot rice with toppings and crispy bottom,dolsot_bibimbap.jpg
+Dongtae Jjigae,Stew,Mild,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,3,Pollock stew,dongtae_jjigae.jpg
+Dotori Muk,Side,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,2,Acorn jelly salad,dotori_muk.jpg
+Dubu Kimchi,Side,Mild,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,Low,3,Tofu with kimchi ,dubu_kimchi.jpg
+Eolkeun-i Tang,Soup,Hot,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,2,Spicy mixed hotpot,eolkeun-i_tang.jpg
+Galbi,BBQ,None,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Medium,5,Marinated beef short ribs char-grilled.,galbi.jpg
+Gamja Jorim,Side,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Medium,3,Braised potatoes,gamja_jorim.jpg
+Ganjang Chicken,Meat,None,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,Medium,5,Fried chicken with soy-garlic glaze,ganjang_chicken.jpg
+Ganjang Gejang,Seafood,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,Low,3,"Raw crab marinated in soy sauce, umami-rich.",ganjang_gejang.jpg
+Gimbap,Rice,None,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,Medium,4,"Rice and vegetables rolled in seaweed, like sushi",gimbap.jpg
+Gochujang Bulgogi,BBQ,Hot,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Spicy bulgogi,gochujang_bulgogi.jpg
+Gochujang Jjigae,Stew,Hot,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,2,Red chili paste stew,gochujang_jjigae.jpg
+Godeungeo Gui,Seafood,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,4,Grilled mackerel,godeungeo_gui.jpg
+Golbaengi Muchim,Side,Hot,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,3,Spicy sea snail salad,golbaengi_muchim.jpg
+Gondre Bap,Rice,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Herb rice with gondre,gondre_bap.jpg
+Gopchang Jeongol,Stew,None,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Beef tripe hotpot,gopchang_jeongol.jpg
+Gui (assorted grilled),BBQ,Medium,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,4,Assorted grilled items,gui.jpg
+Gujeolpan,Side,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,Medium,2,Sliced pancakes with fillings,gujeolpan.jpg
+Gulbi,Seafood,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,3,Salted dried yellow croaker,gulbi.jpg
+Gungoguma,Snack/Street,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,High,4,Roasted sweet potato,gungoguma.jpg
+Gwangjang-style Bindaetteok,Snack/Street,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,Low,3,Mung bean pancake,gwangjang_style_bindaetteok.jpg
+Gyeran Jjim,Side,None,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,Low,4,Steamed egg custard,gyeran_jjim.jpg
+Gyeran-mari,Side,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,Low,3,Rolled omelette side dish with vegetables.,gyeran_mari.jpg
+Haemul Jjim,Seafood,Hot,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,3,Braised seafood,haemul_jjim.jpg
+Haemul Pajeon,Seafood,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,4,Crispy scallion pancake with mixed seafood.,haemul_pajeon.jpg
+Hanchi Mulhoe,Seafood,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,2,Squid cold raw soup,hanchi_mulhoe.jpg
+Hanwoo Bulgogi,BBQ,None,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Medium,5,Premium Korean beef bulgogi,hanwoo_bulgogi.jpg
+Hobakjuk,Soup,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Medium,3,Pumpkin porridge,hobakjuk.jpg
+Hoddeok,Dessert,None,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,High,4,Sweet filled pancakes with brown sugar syrup and nuts.,hoddeok.jpg
+Honey Yakgwa,Dessert,None,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,High,2,Sweet honey cookie,honey_yakgwa.jpg
+Honghap Tang,Soup ,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,2,Mussel soup,hobakjuk.jpg
+Jajangmyeon,Noodles,Mild,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Medium,4,Wheat noodles with savory black bean sauce (often with pork cubes).,jajangmyeon.jpg
+Japchae,Noodles,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,5,Stir-fried glass noodles with vegetables and soy sauce.,japchae.jpg
+Japgokbap,Rice,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Multigrain rice,japgokbap.jpg
+Jeonju Bibimbap,Rice,Mild,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,Medium,5,Jeonju-style bibimbap,jeonju_bibimbap.jpg
+Jeyuk Bokkeum,Meat,Hot,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,4,Spicy stir-fried pork with gochujang,jeyuk_bokkeum.jpg
+Jeonbokjuk,Soup,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,3,Abalone porridge,jeonbokjuk.jpg
+Jeyuk Deopbap,Rice,Hot,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,4,Spicy pork over rice,jeyuk_deopbap.jpg
+Jeonbok Gui,Seafood,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,3,Grilled abalone,jeonbok_gui.jpg
+Jjimdak,Meat,Mild,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,4,Braised chicken,jjimdak.jpg
+Jjim Galbi,Meat,None,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Braised short ribs,jjim_galbi.jpg
+Jjamppong,Noodles,Hot,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,4,Spicy seafood noodle soup with chili broth.,jjamppong.jpg
+Jokbal,Meat,None,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,4,Soy-braised pig's feet served sliced,jokbal.jpg
+Kimbap,Rice,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,Low,4,"Rice roll with vegetables, egg, and sometimes fish or meat.",kimbap.jpg
+Kimchi,Side,Medium,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Low,5,"Fermented napa cabbage with chili, garlic, ginger.",kimchi.jpg
+Kimchi Jjigae,Stew,Hot,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,5,Spicy kimchi stew often with pork and tofu.,kimchi_jjigae.jpg
+Kkaennip Jangajji,Side,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,2,Pickled perilla leaves,kkaennip_jangajji.jpg
+Kkakdugi,Side,Hot,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,4,Cubed radish kimchi,kakdugi.jpg
+Kkongchi Jorim,Seafood,Hot,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,3,Braised pacific saury,kkongchi_jorim.jpg
+Kongbiji Jjigae,Stew,Mild,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,2,Soy pulp stew,kongbiji_jjigae.jpg
+Kongguksu,Noodles,None,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Soy milk cold noodle,kongguksu.jpg
+Kongjaban,Side,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,High,2,Soy-glazed black beans,kongjaban.jpg
+Kongnamul Gukbap,Soup,Soybean sprout soup with rice,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,Medium,3,Soybean sprout soup with rice,kongnamul_gukbap.jpg
+Kongnamul Muchim,Side,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,4,Seasoned soybean sprouts,kongnamul_muchim.jpg
+Korean-style Chips,Snack/Street,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Medium,1,Street snack chips,korean_style_chips.jpg
+Large Mandu,Snack/Street,None,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,Low,3,Large dumplings,large_mandu.jpg
+Maeuntang,Stew,Hot,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,4,Spicy fish stew,maeuntang.jpg
+Makchang,BBQ,None,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,2,Grilled beef/pork large intestines,makchang.jpg
+Makgeolli,Side,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Traditional rice brew; often paired with pancakes.,makgeolli.jpg
+Makguksu,Noodles,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,2,Buckwheat noodles,makguksu.jpg
+Minari Muchim,Side,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,2,Water parsley salad,minari_muchim.jpg
+Miyeok Julgi Bokkeum,Side,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,2,Stir-fried seaweed stems,miyeok_julgi_bokkeum.jpg
+Modeum Jeon,Side,None,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,Low,3,Assorted pancakes,modeum_jeon.jpg
+Mu Guk,Soup,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,2,Radish soup,mu_guk.jpg
+Mulhoe,Seafood,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,3,Cold raw fish soup,mulhoe.jpg
+Mulmandu,Noodles,None,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,Low,3,Boiled dumplings,mulmandu.jpg
+Naengmyeon,Noodles,None,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,4,Cold buckwheat noodles in chilled broth (summer favorite).,naengmyeon.jpg
+Nakji Bokkeum,Seafood,Hot,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,4,Spicy stir-fried octopus with vegetables,nakji_bokkeum.jpg
+Odeng / Eomuk,Snack/Street,Mild,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,3,Fish cake skewers served in warm broth.,odeng.jpg
+Ojingeo Bokkeum,Seafood,Hot,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,4,Spicy stir-fried squid with vegetables,ojingeo_bokkeum.jpg
+Ojingeo Sundae,Seafood,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,3,Squid stuffed with noodles (sundae),ojingeo_sundae.jpg
+Oi Muchim,Side,Mild,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Spicy cucumber salad,oi_muchim.jpg
+Pa Kimchi,Side,Mild,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Green onion kimchi,pa_kimchi.jpg
+Pajeon,Snack/Street,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,Low,4,Green onion pancake,pajeon.jpg
+Pyogo Beoseot Bokkeum,Side,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,2,Stir-fried shiitake mushrooms,pyogo_beoseot_bokkeum.jpg
+Patbingsu,Dessert,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,High,4,Shaved ice with sweet red beans and toppings.,patbingsu.jpg
+Rabokki,Noodles,Hot,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Medium,4,Ramen + Tteokbokki,robokki.jpg
+Saengseon Jorim,Seafood,Hot,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,3,Braised fish in sauce,saengseon_jorim.jpg
+Saeujeot,Side,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Low,2,Salted fermented shrimp,saeujeot.jpg
+Samgyeopsal,BBQ,None,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Low,5,Grilled pork belly served with lettuce wraps and sauces.,samgyeopsal.jpg
+Samgyetang,Soup,None,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,Low,4,Whole young chicken ginseng soup.,samgyetang.jpg
+Seolleongtang,Soup,None,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Low,4,Milky beef bone soup with noodles or rice.,seolleongtang.jpg
+Sigeumchi Namul,Side ,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,4,Seasoned spinach with sesame oil and soy,sigeumchi_namul.jpg
+Sundae Guk,Soup,None,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Sundae soup with broth,sundae_guk.jpg
+Sujeonggwa Bingsu,Dessert,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,High,2,Sujeonggwa shaved ice,sujeonggwa_bingsu.jpg
+Sikhye Bingsu,Dessert,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,High,2,Sikhye shaved ice,sikhye_bingsu.jpg
+Sundea,Snack/Street,None,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Low,3,"Blood sausage steamed and sliced, often with salt or sauce.",sundea.jpg
+Sundubu Jjigae,Stew,Medium,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,4,Soft tofu stew with chili and mushrooms; seafood/pork variants exist.,sundubu_jjigae.jpg
+Tteokbokki,Snack/Street,Hot,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Medium,5,Chewy rice cakes in spicy-sweet gochujang sauce.,tteokbokki.jpg
+Tteokguk,Soup,None,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Rice cake soup traditionally eaten on Lunar New Year.,tteokguk.jpg
+Wang Mandu,Snack/Street,None,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,Low,3,Large steamed dumplings,wang_mandu.jpg
+Yangnyeom Chicken,Snack/Street,Medium,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,High,5,Crispy fried chicken with sweet-spicy sauce.,yangnyeom_chicken.jpg
+Yubu Chobap,Rice,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Medium,3,Inari sushi (tofu pouch rice),yubu_chopab.jpg
+Yubu Jeongol,Stew,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,2,Tofu pouch hotpot,yubu_jeongol.jpg
+Yukhoe,Meat,None,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Low,3,Korean beef tartare,yukhoe.jpg
+Yuja Cha,Dessert,None,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,High,4,Citron tea,yuja_cha.jpg

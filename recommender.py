@@ -13,7 +13,7 @@ WEIGHTS = {
     "popularity": 1.0,
 }
 
-CATEGORIES = ["Rice","Stew","Noodles","Soup","BBQ","Snack/Street","Dessert","Side","Seafood"]
+CATEGORIES = ["Rice","Stew","Noodles","Soup","BBQ/Meat","Snack/Street","Dessert","Side","Seafood"]
 
 def load_data(path: str) -> pd.DataFrame:
     df = pd.read_csv(path)
